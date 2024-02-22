@@ -1,0 +1,71 @@
+.mainheader{
+    flex-grow: 1;
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+.content-container{
+    flex-grow: 1;
+}
+.head-container{
+    display: flex;
+    
+}
+.sidebardiv{
+    height: 700px;
+    
+}
+.blog-content{
+    width: 300px;
+    border: 3px solid black;
+    margin: 20px;
+
+}
+.main-blogcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 10px;
+}
+
+.take-input{
+    margin: 10px;
+    padding: 10px;
+}
+.logoimage{
+    height: 80px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+  
+  .hashtag {
+    margin: 0px 3px;
+  }
+  
+  .reactions {
+    margin: 15px 0 0 0;
+  }
+
+ .deletebutton{
+    cursor: pointer;
+ } 
+.loader{
+   margin: 10%;
+   height: 5rem;
+   width: 5rem;
+ }
+
+
+.headerbuttons a{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(158, 82, 44);
+    margin-left: 1rem;
+    padding: 7px;
+ }
+
+ .headerbuttons a:hover{
+    color: white;
+    background-color: rgb(97, 49, 25);
+ }
+ 
